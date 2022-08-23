@@ -5,6 +5,10 @@ import java.util.TreeSet;
 
 public class SortSymptomsList implements ISymptomSorter {
 
+    /**
+     * @param symptoms - unordered listing of the symptoms from data file, duplicates included
+     * @return an alphabetically ordered and duplicate-free collection of symptoms
+     */
     @Override
     public TreeSet<String> sortSymptoms(List<String> symptoms) {
         TreeSet<String> sortedSymptoms = new TreeSet<>();

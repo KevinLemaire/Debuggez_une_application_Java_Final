@@ -10,6 +10,11 @@ public class WriteSymptomsAnalytics implements ISymptomWriter {
 
     private String filepath;
 
+    /**
+     *
+     * @param filepath a full or partial path to file where final data will be written
+     */
+
     public WriteSymptomsAnalytics(String filepath) {this.filepath = filepath;}
 
     @Override
